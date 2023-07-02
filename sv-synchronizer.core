@@ -1,0 +1,14 @@
+CAPI=2:
+name: kwilke:simple:sv-synchronizer:1.0.0
+description: A synchronizer register
+
+filesets:
+  rtl:
+    files:
+      - synchronizer.sv
+    file_type: systemVerilogSource
+
+targets:
+  default: &default
+    filesets:
+      - rtl
